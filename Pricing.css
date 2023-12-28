@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color:darkkhaki;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    box-shadow: 4px 1px 8px 1px gray;
+    margin-top: -17px;
+}
+ul li{
+    background-color: white;
+    margin-top: 22px;
+    margin-left: 33px;
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    list-style: none;
+
+}
+ul{
+    margin-left: 13px;
+    margin-top: 12px;
+    background-color: white;
+    text-decoration: none;
+    line-height: 10px;
+    color: black;
+    font-size: 17px;
+}
+div a{
+   margin-left: 1200px;
+   color: black;
+   text-decoration: none;
+   font-size: 18px;
+   font-style: normal;
+   justify-content: space-evenly;
+   background-color: white;
+}
+.Pricing{
+    color:black;
+    font-size: 60px;
+    margin-top: 45px;
+    margin-left: 540px;
+    line-height:15px;
+    font-style:normal;
+    text-shadow: 2px 2px 4px rgba(248, 248, 248, 0.5);
+}
+
+.Page{
+    display: flex;
+}
+#Page1{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 100px;
+}
+.box{
+    height: 420px;
+    width: 290px;
+    /* border: 1px solid; */
+    background-color: white;
+    box-shadow: 1px 1px 1px 0px black;
+    border-radius: 15px 15px 15px 15px;
+}
+/* .box:hover{
+    transform: scale(1.2);    //This is for css 
+} */
+.box.active {
+    transform: scale(1.2);   
+}
+h2{
+    margin-top: 18px;
+    margin-left: 13px;
+    background-color: white;
+    color: rgb(234, 169, 5);
+    /* 9text-shadow: 2px 2px 4px rgba(7, 7, 7, 0.5); */
+}
+
+span{
+    background-color: white;
+    font-size: 17px;
+}
+h5{
+    background-color: white;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+h3{
+    background-color: white;
+    margin-left: 83px;
+    margin-top: 10px;
+    font-size: 60px;
+    color: blue;
+}
+
+.box11{
+      height:160px ;
+      width: 200px;
+      /* border: 1px solid; */
+      margin-top: -40px;
+      margin-left: 43px;
+      background-color: rgb(21, 21, 92);
+      box-shadow: 1px 0px 5px 1px black;
+}
+#box11{
+    background-color: rgb(215, 22, 22);
+
+}
+#box12{
+    background-color: rgb(24, 197, 24);
+}
+p{
+  color: white;
+  margin-top: -90px;
+}
+.scrollpage{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(54, 48, 48);
+    margin-top: 100px;
+}
+.text{
+    margin-top: 40px;
+    color: white;
+}
+.button{
+    height: 27px;
+    width: 72px;
+    /* border: 1px solid; */
+    background-color: chocolate;
+    margin-left: 58px;
+    text-align: center;
+    font-size: 18px;
+    color:white;
+    line-height: 22px;
+    box-shadow: 2px 3px 4px 5px burlywood;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+}
+.button:hover{
+    background-color: green;
+    color: white;
+}
+ul .Nav1{
+    display: inline-block;
+    list-style: none;
+    
+}
+.Nav1:hover{
+   color: blue;
+}
+ .nav1{
+    margin-left: 1000px;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    color:black;
+    text-shadow: 2px 2px 4px rgba(135, 65, 65, 0.5);
+}
+.scrollpage1{
+    color: white;
+    margin-left: 500px;
+    margin-top: -200px;
+    background-color: rgb(54, 48, 48);
+    text-shadow: 2px 2px 4px rgba(246, 246, 246, 0.5);
+}
+
+/************************** Responsive Web Page for Mobile and Tab ***************************/
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: darkkhaki;
+    }
+
+    .nav {
+        margin-top: 0;
+    }
+
+    .nav1 {
+        margin-left: 0;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .Nav1 {
+        margin-top: 0;
+    }
+
+    .Page {
+        margin-top: 50px; 
+    }
+
+    .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .nav1 {
+        margin-left: 0;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .scrollpage1 {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .Pricing {
+        font-size: 40px;
+        margin-left: 20px; 
+        margin-top: 20px; 
+    }
+
+    .text {
+        margin-top: 20px; 
+    }
+
+    .scrollpage {
+        margin-top: 20px; 
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .nav1 {
+        margin-top: 10px;
+    }
+
+    .Page {
+        margin-top: 20px;
+    }
+
+    .box {
+        height: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .Pricing {
+        font-size: 28px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .text {
+        margin-top: 20px;
+    }
+
+    .scrollpage {
+        margin-top: 20px;
+    }
+
+    .scrollpage1 {
+        margin-top: 20px;
+    }
+}

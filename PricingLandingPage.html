@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Landing Page</title>
+    <link rel="stylesheet" href="./Pricing.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+  <div class="res">
+      <div class="nav">
+        <ul class="nav1">
+            <li class="Nav1" >Home</li>
+            <li class="Nav1">Company details</li>
+            <li class="Nav1">Contact</li>
+            <li class="Nav1">Log In </li>
+        </ul>
+      </div>
+      <div class="Pricing">Choose your plan</div>
+      <div class="Page" id="Page1">
+      <div class="box" id="box1" >
+        
+         <!-- <div class="box11"></div>  -->
+           <h2>Freelancer</h2>
+           <h5>The essentials to provide your best work for clients.</h5>
+           <h3>$15 
+            <span>/month</span>
+           </h3>
+           <ul>
+            <li><div class="button">Buy now</div></li>
+            <li><i class="fas fa-check"></i>5 product</li>
+            <li><i class="fas fa-check"></i>Up to 1000 subscribe</li>
+            <li><i class="fas fa-check"></i>Basic analytics</li>
+            <li><i class="fas fa-check"></i>48-hour support response time</li>
+        </ul>
+        </div>
+      <div class="box" id="box2">
+        <!-- <div class="box11" id="box11"></div> -->
+        <h2>Startup</h2>
+        <h5>A plan that scales with your rapidly growing business.</h5>
+        <h3>$30
+            <span>/month</span>
+        </h3>
+        <ul>
+            <li><div class="button">Buy now</div></li>
+            <li><i class="fas fa-check"></i>25 product</li>
+            <li><i class="fas fa-check"></i>Up to 10000 subscribers</li>
+            <li><i class="fas fa-check"></i>Advanced analytics</li>
+            <li><i class="fas fa-check"></i>24-hour support response time</li>
+            <li><i class="fas fa-check"></i>Marketing automations</li>
+        </ul>
+      </div>
+      <div class="box" id="box3">
+        <!-- <div class="box11" id="box12"></div> -->
+        <h2>Enterprise</h2>
+        <h5>Dedicated support and infrastructure for your company.</h5>
+        <h3>$48
+            <span>/month</span>
+        </h3>
+        <ul>
+            <li><div class="button">Buy now</div></li>
+            <li><i class="fas fa-check"></i>Unlimited products</li>
+            <li><i class="fas fa-check"></i>Unlimited subscribers</li>
+            <li><i class="fas fa-check"></i>Advanced analytics</li>
+            <li><i class="fas fa-check"></i>Marketing automations</li>
+        </ul>
+      </div>
+      </div>
+      <div class="scrollpage"></div>
+         <div class="scrollpage1">All price are in USD and charged per site with applicable taxes added at checkout.</div> 
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    const pricingBoxes = document.querySelectorAll('.box');
+
+    pricingBoxes.forEach(box => {
+        box.addEventListener('mouseover', function () {
+            this.classList.add('active');
+        });
+
+        box.addEventListener('mouseout', function () {
+            this.classList.remove('active');
+        });
+    });
+});
+      </script>
+      </div>
+</body>
+</html>
